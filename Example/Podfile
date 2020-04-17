@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SimpleAlert_Example' do
+  pod 'SimpleAlert', :path => '../'
+
+  target 'SimpleAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
