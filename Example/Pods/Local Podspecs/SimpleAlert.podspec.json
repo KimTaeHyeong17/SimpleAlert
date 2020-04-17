@@ -1,0 +1,22 @@
+{
+  "name": "SimpleAlert",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleAlert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/uuzaza@naver.com/SimpleAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "uuzaza@naver.com": "uuzaza@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/uuzaza@naver.com/SimpleAlert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SimpleAlert/Classes/**/*"
+}

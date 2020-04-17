@@ -1,0 +1,16 @@
+PODS:
+  - SimpleAlert (0.1.0)
+
+DEPENDENCIES:
+  - SimpleAlert (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleAlert: dc1e70d759b9a3f0e0a39b4e604dba0cbb8995cc
+
+PODFILE CHECKSUM: 6b6f4d6a9e1269b012ad0a2336d14becc7152f9d
+
+COCOAPODS: 1.8.4

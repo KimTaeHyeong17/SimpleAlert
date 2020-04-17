@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		133AEC749854DB67109D235E /* Pods_SimpleAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A93F89BBDD372228F54191 /* Pods-SimpleAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAlert_Example.release.xcconfig"; path = "Target Support Files/Pods-SimpleAlert_Example/Pods-SimpleAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1963CA676287201850294F0B /* SimpleAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SimpleAlert.podspec; path = ../SimpleAlert.podspec; sourceTree = "<group>"; };
+		1963CA676287201850294F0B /* SimpleAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SimpleAlert.podspec; path = ../SimpleAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3CBFD71EEB191EB9FF931499 /* Pods-SimpleAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAlert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleAlert_Tests/Pods-SimpleAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SimpleAlert_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAlert_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		93FA2060E370C2DDD354A42F /* Pods-SimpleAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAlert_Tests.release.xcconfig"; path = "Target Support Files/Pods-SimpleAlert_Tests/Pods-SimpleAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B989D241B17660E66D3FA7FF /* Pods_SimpleAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA22729731C7D40A0A2C781 /* Pods-SimpleAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAlert_Example.debug.xcconfig"; path = "Target Support Files/Pods-SimpleAlert_Example/Pods-SimpleAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CC344B079DC4BBC966269797 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D7F8233C0B2DF09A20797C69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CC344B079DC4BBC966269797 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D7F8233C0B2DF09A20797C69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				3CBFD71EEB191EB9FF931499 /* Pods-SimpleAlert_Tests.debug.xcconfig */,
 				93FA2060E370C2DDD354A42F /* Pods-SimpleAlert_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
